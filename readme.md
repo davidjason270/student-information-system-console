@@ -1,7 +1,5 @@
 # Student Management System (Python)
 
-### Simple Project Documentation
-
 ## 1. Overview
 
 The **Student Management System** is a basic Python program that stores and manages student academic records. The system allows users to add students, record their subject marks, automatically calculate grades and GPA, generate reports, and save the data to a file so it can be used later.
