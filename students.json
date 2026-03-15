@@ -1,0 +1,161 @@
+[
+    {
+        "name": "kaluba mulela",
+        "subjects": [
+            {
+                "subject": "math",
+                "marks": 50,
+                "grade": "F"
+            },
+            {
+                "subject": "eng",
+                "marks": 60,
+                "grade": "D"
+            },
+            {
+                "subject": "science",
+                "marks": 70,
+                "grade": "C"
+            },
+            {
+                "subject": "economics",
+                "marks": 90,
+                "grade": "A"
+            },
+            {
+                "subject": "civics",
+                "marks": 90,
+                "grade": "A"
+            }
+        ],
+        "gpa": 2.2
+    },
+
+    {
+        "name": "kaluba mulela",
+        "subjects": [
+            {
+                "subject": "math",
+                "marks": 50,
+                "grade": "F"
+            },
+            {
+                "subject": "eng",
+                "marks": 60,
+                "grade": "D"
+            },
+            {
+                "subject": "science",
+                "marks": 70,
+                "grade": "C"
+            },
+            {
+                "subject": "economics",
+                "marks": 90,
+                "grade": "A"
+            },
+            {
+                "subject": "civics",
+                "marks": 90,
+                "grade": "A"
+            }
+        ],
+        "gpa": 2.2
+    },
+
+    {
+        "name": "kaluba mulela",
+        "subjects": [
+            {
+                "subject": "math",
+                "marks": 50,
+                "grade": "F"
+            },
+            {
+                "subject": "eng",
+                "marks": 60,
+                "grade": "D"
+            },
+            {
+                "subject": "science",
+                "marks": 70,
+                "grade": "C"
+            },
+            {
+                "subject": "economics",
+                "marks": 90,
+                "grade": "A"
+            },
+            {
+                "subject": "civics",
+                "marks": 90,
+                "grade": "A"
+            }
+        ],
+        "gpa": 2.2
+    },
+
+    {
+        "name": "kaluba mulela",
+        "subjects": [
+            {
+                "subject": "math",
+                "marks": 50,
+                "grade": "F"
+            },
+            {
+                "subject": "eng",
+                "marks": 60,
+                "grade": "D"
+            },
+            {
+                "subject": "science",
+                "marks": 70,
+                "grade": "C"
+            },
+            {
+                "subject": "economics",
+                "marks": 90,
+                "grade": "A"
+            },
+            {
+                "subject": "civics",
+                "marks": 90,
+                "grade": "A"
+            }
+        ],
+        "gpa": 2.2
+    },
+
+    {
+        "name": "kaluba mulela",
+        "subjects": [
+            {
+                "subject": "math",
+                "marks": 50,
+                "grade": "F"
+            },
+            {
+                "subject": "eng",
+                "marks": 60,
+                "grade": "D"
+            },
+            {
+                "subject": "science",
+                "marks": 70,
+                "grade": "C"
+            },
+            {
+                "subject": "economics",
+                "marks": 90,
+                "grade": "A"
+            },
+            {
+                "subject": "civics",
+                "marks": 90,
+                "grade": "A"
+            }
+        ],
+        "gpa": 2.2
+    }
+]
