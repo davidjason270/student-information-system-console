@@ -1,36 +1,36 @@
 import os
 
-student_records = []
-database = "records.txt"
+student_records = [] #memory
+database = "records.txt" #storage
 
 def delete():
     index = int(input("Enter the student number of the student to delete"))
     student_records.pop(index-1)
-    saveTasks()
-    viewTask()
+    saveStudentRecords()
+    viewStudents()
 
-def loadTasks():
+def loadStudentRecords():
     with open(database, "r") as db:
         lines = db.readlines()
         for line in lines:
             student_records.append(line.strip())
 
-def saveTasks():
+def saveStudentRecords():
     with open(database, "w") as db:
         for item in student_records:
             db.write(f"{item}\n")
 
-def addTask():
+def addStudent():
     os.system("cls")
     print("\n\tAdd New Student\n")
     # ask the user to add an item
     listItem = input("Enter a Fullname:\n");
     student_records.append(listItem)
-    saveTasks()
+    saveStudentRecords()
 
-def viewTask():
+def viewStudents():
     os.system("cls")
-    print("\n\tView Tasks\n")
+    print("\n\tView All Students\n")
     if len(student_records) == 0:
         print("Empty Student Records")
     else:
@@ -40,7 +40,7 @@ def viewTask():
     os.system("cls")
 
 def menu():
-    loadTasks()
+    loadStudentRecords()
     while True:
         print("----------------------------\n\tStudent Records System\n----------------------------")
         print("  1. View All Students Records")
@@ -51,9 +51,9 @@ def menu():
         choice = int(input("Please select an Option :"))
 
         if choice == 1:
-            viewTask()
+            viewStudents()
         elif choice == 2:
-            addTask()
+            addStudent()
         elif choice == 3:
            delete()
         elif choice == 4:
